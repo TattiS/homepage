@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 
     <title>Solyanyk Tetyana - Resume</title>
     <style>
@@ -24,7 +25,7 @@
   p {
   	  font-size: 16px;
   }
-  .margin {margin-bottom: 15px; font-weight: bold;}
+  .margin {margin-bottom: 5px; font-weight: bold;}
   .bg-1 { 
       background-color: #b1cadd; 
       color: #ffffff;
@@ -48,6 +49,10 @@
   .list-group-item-text{
     font-size: 12px;
   }
+        .col-sm-4 {
+            border: 0.5px dotted #b1cadd;
+            border-radius:10px 10px;
+        }
   </style>
   </head>
   <body>
@@ -58,11 +63,24 @@
   		<img src="bird.jpg" class="img-responsive" style="display:inline" alt="Mine" width="100" height="100">
   		 <h4>Solyanyk Tetyana</h4>
   	</div>
-  	<div class="col-sm-6"> 
-  		<a href="https://www.facebook.com/tanusha.solyanik"> https://www.facebook.com/tanusha.solyanik</a><br/>
-  		<a href="https://github.com/TattiS">https://github.com/TattiS</a>
-      <a href="#">tanyas81@gmail.com</a>
-		  <a href="#">skype: tattisoli</a>
+  	<div class="col-sm-6">
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="https://www.facebook.com/tanusha.solyanik"> https://www.facebook.com/tanusha.solyanik </a>
+            </div>
+            <div class="col-sm-6">
+                <a href="#">tanyas81@gmail.com</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="https://github.com/TattiS">https://github.com/TattiS</a>
+            </div>
+            <div class="col-sm-6">
+                <a href="#">skype: tattisoli</a>
+            </div>
+        </div>
+      
     </div>
   	</div>
   </div>
@@ -108,34 +126,31 @@
 		  </ul>
 	
     </div>
-    <div class="col-sm-4"> 
-     <h3 class="margin">Likes & Dislikes</h3><br>
-     
-     	<div class="container-fluid">
-     		<div class="row">
-     		  	<div class="col-sm-6"> 
-	     			<h5>LIKES</h5>
-	     			<ul class="list-group">
-				      	<li class="list-group-item">Humour</li>
-				      	<li class="list-group-item">Coffee</li>
-						<li class="list-group-item">IT world</li>
-						<li class="list-group-item">Dogs</li>
-						<li class="list-group-item">Horse-riding</li>
-						<li class="list-group-item">Movies</li>
-						<li class="list-group-item">Travelling</li>
-			      	</ul>
-  				</div>
-     			<div class="col-sm-6"> 
-				<h5>DISLIKES</h5>
-				    <ul class="list-group">
-				      	<li class="list-group-item">Lies</li>
-				      	<li class="list-group-item">Cold weather</li>
-						<li class="list-group-item">Seaweed</li>
-						<li class="list-group-item">"No wi-fi connection" zones</li>
-				    </ul>
-     			</div>
-     		</div>
-     	</div>
+    <div class="col-sm-4">
+        <h3 class="margin">Likes & Dislikes</h3><br>
+        <div class="row">
+            <div class="col-sm-6">
+                <h5>LIKES</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">Humour</li>
+                    <li class="list-group-item">Coffee</li>
+                    <li class="list-group-item">IT world</li>
+                    <li class="list-group-item">Dogs</li>
+                    <li class="list-group-item">Horse-riding</li>
+                    <li class="list-group-item">Movies</li>
+                    <li class="list-group-item">Travelling</li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <h5>DISLIKES</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">Lies</li>
+                    <li class="list-group-item">Cold weather</li>
+                    <li class="list-group-item">Seaweed</li>
+                    <li class="list-group-item">"No wi-fi connection" zones</li>
+                </ul>
+            </div>
+        </div>
     </div>
   </div>
 </div>
